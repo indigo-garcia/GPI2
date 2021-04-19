@@ -1,0 +1,843 @@
+    1  sudo apt install git-all
+    2  sudo passwd
+    3  sudo apt install git-all
+    4  sudo apt install firefox
+    5  apt-get update
+    6  sudo apt install firefox
+    7  sudo add-apt-repository ppa:ubuntu-mozilla-security/ppa -y
+    8  sudo apt update
+    9  sudo apt upgrade
+   10  sudo apt install firefox
+   11  cd Escritorio/
+   12  cd GPI2/
+   13  git init
+   14  rm -rf .git
+   15  git init GPI2
+   16  rm -rf .git
+   17  git init 
+   18  git remote -v
+   19  git clone https://github.com/indigo-garcia/GPI2.git
+   20  rm -rf .git
+   21  git clone https://github.com/indigo-garcia/GPI2.git
+   22  cd ..
+   23  git clone https://github.com/indigo-garcia/GPI2.git
+   24  cd GPI2/
+   25  cd ..
+   26  git clone https://github.com/sonph63195/Shopping
+   27  add-apt-repository ppa:webupd8team/java
+   28  cd ..
+   29  add-apt-repository ppa:webupd8team/java
+   30  sudo add-apt-repository ppa:webupd8team/java
+   31  passwd
+   32  apt-get update
+   33  sudo apt-get update
+   34  sudo apt-get install oracle-java8-installer
+   35  java -version
+   36  sudo apt-get install -y findbugs
+   37  findbugs
+   38  cd $HOME
+   39  wget https://github.com/pmd/pmd/releases/download/pmd_releases%2F6.31.0/pmd-bin-6.31.0.zip
+   40  unzip pmd-bin-6.31.0.zip
+   41  alias pmd="$HOME/pmd-bin-6.31.0/bin/run.sh pmd"
+   42  pmd -d /usr/src -R rulesets/java/quickstart.xml -f text
+   43  findbugs
+   44  sudo apt-get install -y findbugs
+   45  findbugs
+   46  ant -version
+   47  sudo apt-get install ant
+   48  ant -version
+   49  ant build
+   50  ant build.xml
+   51  ant compilation
+   52  ant compilation build-impl.xml
+   53  ant build-impl.xml
+   54  cd ejercicio_2_infraestructura/
+   55  ls
+   56  cd ..
+   57  cd..
+   58  cd ..
+   59  cd Shopping/
+   60  ls
+   61  ant build
+   62  ant compile
+   63  ant build
+   64  ant build.xml
+   65  ant build
+   66  ant
+   67  ant target1
+   68  ant target
+   69  ant
+   70  ant docs
+   71  ant runjunit
+   72  ant bindist
+   73  ant -p
+   74  ant debug
+   75  ant javadoc
+   76  ant -p
+   77  ant -proofile-pre72
+   78  ant -profile-pre72
+   79  ant -p
+   80  ant clean
+   81  ant 
+   82  findbugs
+   83  cd Escritorio/
+   84  cd Shopping/
+   85  ant
+   86  ant compile
+   87  gunzip -c findbugs-3.0.1.tar.gz | tar xvf -
+   88  java -jar findbugs-3.0.1/lib/findbugs.jar
+   89  cd ..
+   90  git clone https://github.com/sonph63195/Shopping
+   91  cd Shopping/
+   92  ant
+   93  ant compile
+   94  pmd.bat -d /home/alumno/Shopping/
+   95  pmd.bat
+   96  run.sh pmd
+   97  cd ..
+   98  ls
+   99  cd Shopping/
+  100  pmd-bin-6.31.0/run.sh -d /home/alumno/Shopping/
+  101  cd ..
+  102  ls
+  103  cd pmd-bin-6.31.0/
+  104  ./run.sh pmd -d /home/alumno/Shopping/ -f text -R rulesets/java/build.xml
+  105  cd bin/
+  106  ./run.sh pmd -d /home/alumno/Shopping/ -f text -R rulesets/java/build.xml
+  107  ./run.sh pmd -d /home/alumno/Shopping/src/java -f text -R rulesets/java/build.xml
+  108  ./run.sh pmd -d /home/alumno/Shopping/src/java -f text -R rulesets/java/quickstart.xml
+  109  ./run.sh pmd -d ../../Shopping -f xml -R rulesets/java/quickstart.xml
+  110  ./run.sh pmd -d ../../Shopping -f xml -R rulesets/java/quickstart.xml >> pmd.xml
+  111  ./run.sh pmd -d ../../Shopping -f text -R rulesets/java/quickstart.xml >> pmd.txt
+  112  ./run.sh pmd -d ../../Shopping -f html -R rulesets/java/quickstart.xml >> pmd.fba
+  113  cd ..
+  114  cd Escritorio/GPI2/
+  115  git status
+  116  git add -A
+  117  git status
+  118  git commit -m "Añadidos findbugs y pmd"
+  119  git config --global user.email "you@example.com"
+  120  git config --global user.email "garcia.112044@e.unavarra.es"
+  121  git commit -m "Añadidos findbugs y pmd"
+  122  git config --global user.name "Iñigo Garcia"
+  123  git commit -m "Añadidos findbugs y pmd"
+  124  git status
+  125  git push 
+  126  git status
+  127  curl -X GET -u indigo-garcia:cb46f910df4a80027355edd5b159e1a574fd6bddhttps://api.github.com/users/indigo-garcia/repos | grep -w clone_url
+  128  sudo apt install curl
+  129  curl -X GET -u indigo-garcia:cb46f910df4a80027355edd5b159e1a574fd6bddhttps://api.github.com/users/indigo-garcia/repos | grep -w clone_url
+  130  curl -X GET -u <indigo-garcia>:<cb46f910df4a80027355edd5b159e1a574fd6bdd>https://api.github.com/users/<indigo-garcia>/repos | grep -w clone_url
+  131  git status
+  132  curl -X GET -u indigo-garcia:cb46f910df4a80027355edd5b159e1a574fd6bdd https://api.github.com/users/indigo-garcia/repos | grep -w clone_url
+  133  curl -X GET -u indigo-garcia:cb46f910df4a80027355edd5b159e1a574fd6bdd https://api.github.com/users/indigo-garcia/repos
+  134  curl -X GET -u indigo-garcia:cb46f910df4a80027355edd5b159e1a574fd6bdd https://api.github.com/users/indigo-garcia/repos | grep -w clone_url
+  135  ls
+  136  cd ejercicio_2_infraestructura
+  137  ls
+  138  curl -X GET -u indigo-garcia:cb46f910df4a80027355edd5b159e1a574fd6bdd https://api.github.com/users/indigo-garcia/repos | grep -w clone_url
+  139  service
+  140  tomcat
+  141  cd ..
+  142  service
+  143  tomcat
+  144  cd ..
+  145  service
+  146  tomacat
+  147  apache tomcat
+  148  ./server.startup -tomcat
+  149  tomcat -version
+  150  tomcat --version
+  151  sudo groupadd tomcat
+  152  sudo useradd -s /bin/false -g tomcat tomcat
+  153  curl -O https://www-us.apache.org/dist/tomcat/tomcat-9/v9.0.17/bin/apache-tomcat-9.0.17.tar.gz
+  154  cd /tmp
+  155  sudo apt install zip
+  156  sudo apt install tar
+  157  sudo apt install tar.gz
+  158  sudo apt install gz
+  159  ld
+  160  ls
+  161  unzip apache-tomcat-9.0.17.tar.gz
+  162  cd ..
+  163  ls
+  164  chmod 777
+  165  chmod 777 catalina.2021-02-25.log 
+  166  sudo chmod 777 catalina.2021-02-25.log 
+  167  sudo chmod 777 localhost_access_log.2021-02-25.txt 
+  168  jar -cvf shopping.war Shopping
+  169  cp shopping.war 
+  170  sudo cp shopping.war /var/lib/tomcat8/webapps/
+  171  wget http://www-eu.apache.org/dist/tomcat/tomcat-9/v9.0.13/bin/apache-tomcat-9.0.13.tar.gz
+  172  apt-get install tomcat8
+  173  sudo apt-get install tomcat8
+  174  systemctl start tomcat8
+  175  wget localhost:8080
+  176  var/lib/tomcat8
+  177  /var/lib/tomcat8
+  178  cd /var/lib/tomcat8
+  179  chmod 777
+  180  chmod777
+  181  sudo chmod 777
+  182  cd logs
+  183  chmod 777 logs 
+  184  sudo chmod 777 logs 
+  185  unzip LibreOffice_7.1.1_Linux_x86-64_deb.tar.gz
+  186  sudo apt install tar
+  187  sudo apt install tar.gz
+  188  sudo apt install gz
+  189  sudo apt install libre-office
+  190  sudo apt install libre office
+  191  tar -xzvf LibreOffice_7.1.1_Linux_x86-64_deb.tar.gz LibreOffice_7.1.1.2_Linux_x86-64_deb/
+  192  cd -h
+  193  df -h
+  194  cf -h
+  195  df -h
+  196  sudo add-apt-repository ppa:libreoffice/libreoffice-7-0
+  197  sudo apt update
+  198  sudo apt-fullupgrade
+  199  sudo apt full-upgrade
+  200  chmod -rwx 
+  201  chmod -rwx local
+  202  sudo chmod -rwx local
+  203  sudo chmod +rwx local
+  204  cd local/
+  205  ls -l
+  206  mv android-studio-ide-201.7042882-linux.tar.gz/usr/local/
+  207  df -h
+  208  mv android-studio-ide-201.7042882-linux.tar.gz../usr/local/
+  209  mv android-studio-ide-201.7042882-linux.tar.gz../
+  210  mv android-studio-ide-201.7042882-linux.tar.gz..
+  211  mv android-studio-ide-201.7042882-linux.tar.gz/..
+  212  mv android-studio-ide-201.7042882-linux.tar.gz ..
+  213  cd 
+  214  mv android-studio-ide-201.7042882-linux.tar.gz/ usr/local/
+  215  mv android-studio-ide-201.7042882-linux.tar.gz usr/local/
+  216  mv android-studio-ide-201.7042882-linux.tar.gz /usr/local/
+  217  sudo mv android-studio-ide-201.7042882-linux.tar.gz /usr/local/
+  218  cd usr/local
+  219  cd /usr/local
+  220  tar -xvf android-studio-ide-201.7042882-linux.tar.gz 
+  221  sudo tar -xvf android-studio-ide-201.7042882-linux.tar.gz 
+  222  exo-open --launch FileManager
+  223  android-studio/bin/
+  224  cd android-studio/bin/
+  225  studio.sh
+  226  sh studio.sh
+  227  df -h
+  228  cd /usr/local
+  229  ls
+  230  cd android-studio/
+  231  df -h
+  232  studio.sh
+  233  cd bin
+  234  studio.sh
+  235  ls
+  236  sh studio.sh
+  237  Iscpu
+  238  cpuinfo
+  239  lscpu
+  240  df -h
+  241  exo-open --launch FileManager
+  242  cd ..
+  243  cd .
+  244  .
+  245  cd .
+  246  cd ..
+  247  sudo apt-get --purge remove android-studio
+  248  grep " install " /var/log/dpkg.log
+  249  apt -list installed
+  250  apt --list installed
+  251  apt list --installed
+  252  /usr/local/android-studio/bin/
+  253  cd /usr/local/android-studio/bin/
+  254  sudo 
+  255  sh studio.sh
+  256  exo-open --launch FileManager
+  257  sudo exo-open --launch FileManager
+  258  cd 
+  259  tar -xvf android-studio-ide-201.7042882-linux.tar.gz 
+  260  cd android-studio/
+  261  cd bin
+  262  sh studio.shg
+  263  sh studio.sh
+  264  sudo sh studio.sh
+  265  sudo apt-get --purge remove android-studio
+  266  snap install android-studio
+  267  sudo snap install android-studio
+  268  rm -r ~/.AndroidStudio/ 
+  269  rm -r ~/.AndroidStudio/
+  270  rm -r ~/.android
+  271  rm -r 
+  272  sh studio.sh
+  273  rm -r ~/.config/Google/AndroidStudio4.1
+  274  sh studio.sh
+  275  df -h
+  276  cf -h
+  277  df -h
+  278  android-studio
+  279  cd android-studio/
+  280  df -h
+  281  sh studio.sh
+  282  cd bin
+  283  sh studio.sh
+  284  cd ..
+  285  tar -xvf arduino-1.8.13-linux64.tar.xz arduino-1.8.13/
+  286  cd ..
+  287  cd Descargas/
+  288  tar -xvf arduino-1.8.13-linux64.tar.xz arduino-1.8.13/
+  289  cd ..
+  290  cd arduino-1.8.13/
+  291  ls
+  292  cd tools
+  293  ls
+  294  cd ..
+  295  cd tools-builder
+  296  ls
+  297  cd ..
+  298  sh install.sh
+  299  sudo sh install.sh
+  300  android-studio
+  301  gradlew tasks
+  302  ./gradlew build.gradle 
+  303  gradlew assembleDebug
+  304  gradlew installDebug
+  305  gradle installDebug
+  306  gradle.run
+  307  gradle run
+  308  build.gradle
+  309  cd android-studio
+  310  cd bin
+  311  sh studio.sh
+  312  unzip gradle-6.5-bin.zip 
+  313  gradle
+  314  gradle.bat
+  315  gradlew tasks
+  316  cd Prueba/
+  317  gradlew tasks
+  318  gradle tasks
+  319  sudo apt install gradle
+  320  gradle tasks
+  321  sudo apt update gradle
+  322  sudo update gradle
+  323  sudo apt upgrade gradle
+  324  sudo snap install gradle
+  325  gradle tasks
+  326  sudo apt-get update
+  327  gradle tasks
+  328  sudo apt upgrade gradle
+  329  gradle --version
+  330  ./gradle 
+  331  gradle.sh 
+  332  ./gradle build.gradle 
+  333  ./gradlew build.gradle 
+  334  gradlew tasks
+  335  gradle tasks
+  336  cd app/
+  337  ls
+  338  ./gradle build.gradle 
+  339  ./gradlew build.gradle 
+  340  ./gradle build.gradle 
+  341  gradlew build.gradle 
+  342  gradle build.gradle 
+  343  cd ..
+  344  gradlew
+  345  gradle buid.gradle
+  346  sudo apt upgrade gradle
+  347  gradle --version
+  348  ls
+  349  cd gradle-6.5/
+  350  ls
+  351  cd bin
+  352  ls
+  353  ./gradle
+  354  gradle --version
+  355  cd .
+  356  cd
+  357  cd Escritorio/
+  358  unzip Bare-Arduino-Project-master.zip 
+  359  sudo apt-get install gcc-avr binutils avr-libc avrdude
+  360  avr-gcc -v
+  361  cd ~ 
+  362  git clone https://github.com/ladislas/Bare-Arduino-Project MyArduinoProject
+  363  cd MyArduinoProject/
+  364  git submodule 
+  365  git submodule update --init --recursive
+  366  it remote set-url origin https://github.com/{{indigo-garcia}}/MyArduinoProject
+  367  git remote set-url origin https://github.com/{{indigo-garcia}}/MyArduinoProject
+  368  git push --set-upstream origin master
+  369  git remote set-url origin https://github.com/indigo-garcia/MyArduinoProject
+  370  git push --set-upstream origin master
+  371  git remote set-url origin https://github.com/indigo-garcia/MyArduinoProject
+  372  git push --set-upstream origin master
+  373  brew install python python@2
+  374  $ pip install pyserial & pip2 install pyserial
+  375  sudo apt-install python3-pip
+  376  sudo apt install python3-pip
+  377  sudo apt install python-pip
+  378  $ pip install pyserial & pip2 install pyserial
+  379  cd src/FooProject
+  380  cp ../../Makefile-Linux.mk ./Makefile
+  381  ls
+  382  make
+  383  make upload
+  384  arduino-cli --version
+  385  cd arduino-1.8.13/
+  386  ls
+  387  cd tools
+  388  cd ..
+  389  cd tools-builder/
+  390  ls
+  391  cd ..
+  392  ./arduino
+  393  sudo apt install arduino-cli
+  394  cd ..
+  395  curl -fsSL https://raw.githubusercontent.com/arduino/arduino-cli/master/install.sh | sh
+  396  ls
+  397  cd bin/
+  398  ./arduino-cli
+  399  arduino-cli
+  400  cp arduino-cli /usr/bin/
+  401  sudo cp arduino-cli /usr/bin/
+  402  arduino-cli
+  403  cd ..
+  404  ls
+  405  arduino-cli
+  406  ls
+  407  cd Bare-Arduino-Project-master/
+  408  ls
+  409  arduino-cli
+  410  arduino-cli completion
+  411  cd ..
+  412  cd Escritorio/
+  413  history >> historal.txt
+    1  sudo apt install git-all
+    2  sudo passwd
+    3  sudo apt install git-all
+    4  sudo apt install firefox
+    5  apt-get update
+    6  sudo apt install firefox
+    7  sudo add-apt-repository ppa:ubuntu-mozilla-security/ppa -y
+    8  sudo apt update
+    9  sudo apt upgrade
+   10  sudo apt install firefox
+   11  cd Escritorio/
+   12  cd GPI2/
+   13  git init
+   14  rm -rf .git
+   15  git init GPI2
+   16  rm -rf .git
+   17  git init 
+   18  git remote -v
+   19  git clone https://github.com/indigo-garcia/GPI2.git
+   20  rm -rf .git
+   21  git clone https://github.com/indigo-garcia/GPI2.git
+   22  cd ..
+   23  git clone https://github.com/indigo-garcia/GPI2.git
+   24  cd GPI2/
+   25  cd ..
+   26  git clone https://github.com/sonph63195/Shopping
+   27  add-apt-repository ppa:webupd8team/java
+   28  cd ..
+   29  add-apt-repository ppa:webupd8team/java
+   30  sudo add-apt-repository ppa:webupd8team/java
+   31  passwd
+   32  apt-get update
+   33  sudo apt-get update
+   34  sudo apt-get install oracle-java8-installer
+   35  java -version
+   36  sudo apt-get install -y findbugs
+   37  findbugs
+   38  cd $HOME
+   39  wget https://github.com/pmd/pmd/releases/download/pmd_releases%2F6.31.0/pmd-bin-6.31.0.zip
+   40  unzip pmd-bin-6.31.0.zip
+   41  alias pmd="$HOME/pmd-bin-6.31.0/bin/run.sh pmd"
+   42  pmd -d /usr/src -R rulesets/java/quickstart.xml -f text
+   43  findbugs
+   44  sudo apt-get install -y findbugs
+   45  findbugs
+   46  ant -version
+   47  sudo apt-get install ant
+   48  ant -version
+   49  ant build
+   50  ant build.xml
+   51  ant compilation
+   52  ant compilation build-impl.xml
+   53  ant build-impl.xml
+   54  cd ejercicio_2_infraestructura/
+   55  ls
+   56  cd ..
+   57  cd..
+   58  cd ..
+   59  cd Shopping/
+   60  ls
+   61  ant build
+   62  ant compile
+   63  ant build
+   64  ant build.xml
+   65  ant build
+   66  ant
+   67  ant target1
+   68  ant target
+   69  ant
+   70  ant docs
+   71  ant runjunit
+   72  ant bindist
+   73  ant -p
+   74  ant debug
+   75  ant javadoc
+   76  ant -p
+   77  ant -proofile-pre72
+   78  ant -profile-pre72
+   79  ant -p
+   80  ant clean
+   81  ant 
+   82  findbugs
+   83  cd Escritorio/
+   84  cd Shopping/
+   85  ant
+   86  ant compile
+   87  gunzip -c findbugs-3.0.1.tar.gz | tar xvf -
+   88  java -jar findbugs-3.0.1/lib/findbugs.jar
+   89  cd ..
+   90  git clone https://github.com/sonph63195/Shopping
+   91  cd Shopping/
+   92  ant
+   93  ant compile
+   94  pmd.bat -d /home/alumno/Shopping/
+   95  pmd.bat
+   96  run.sh pmd
+   97  cd ..
+   98  ls
+   99  cd Shopping/
+  100  pmd-bin-6.31.0/run.sh -d /home/alumno/Shopping/
+  101  cd ..
+  102  ls
+  103  cd pmd-bin-6.31.0/
+  104  ./run.sh pmd -d /home/alumno/Shopping/ -f text -R rulesets/java/build.xml
+  105  cd bin/
+  106  ./run.sh pmd -d /home/alumno/Shopping/ -f text -R rulesets/java/build.xml
+  107  ./run.sh pmd -d /home/alumno/Shopping/src/java -f text -R rulesets/java/build.xml
+  108  ./run.sh pmd -d /home/alumno/Shopping/src/java -f text -R rulesets/java/quickstart.xml
+  109  ./run.sh pmd -d ../../Shopping -f xml -R rulesets/java/quickstart.xml
+  110  ./run.sh pmd -d ../../Shopping -f xml -R rulesets/java/quickstart.xml >> pmd.xml
+  111  ./run.sh pmd -d ../../Shopping -f text -R rulesets/java/quickstart.xml >> pmd.txt
+  112  ./run.sh pmd -d ../../Shopping -f html -R rulesets/java/quickstart.xml >> pmd.fba
+  113  cd ..
+  114  cd Escritorio/GPI2/
+  115  git status
+  116  git add -A
+  117  git status
+  118  git commit -m "Añadidos findbugs y pmd"
+  119  git config --global user.email "you@example.com"
+  120  git config --global user.email "garcia.112044@e.unavarra.es"
+  121  git commit -m "Añadidos findbugs y pmd"
+  122  git config --global user.name "Iñigo Garcia"
+  123  git commit -m "Añadidos findbugs y pmd"
+  124  git status
+  125  git push 
+  126  git status
+  127  curl -X GET -u indigo-garcia:cb46f910df4a80027355edd5b159e1a574fd6bddhttps://api.github.com/users/indigo-garcia/repos | grep -w clone_url
+  128  sudo apt install curl
+  129  curl -X GET -u indigo-garcia:cb46f910df4a80027355edd5b159e1a574fd6bddhttps://api.github.com/users/indigo-garcia/repos | grep -w clone_url
+  130  curl -X GET -u <indigo-garcia>:<cb46f910df4a80027355edd5b159e1a574fd6bdd>https://api.github.com/users/<indigo-garcia>/repos | grep -w clone_url
+  131  git status
+  132  curl -X GET -u indigo-garcia:cb46f910df4a80027355edd5b159e1a574fd6bdd https://api.github.com/users/indigo-garcia/repos | grep -w clone_url
+  133  curl -X GET -u indigo-garcia:cb46f910df4a80027355edd5b159e1a574fd6bdd https://api.github.com/users/indigo-garcia/repos
+  134  curl -X GET -u indigo-garcia:cb46f910df4a80027355edd5b159e1a574fd6bdd https://api.github.com/users/indigo-garcia/repos | grep -w clone_url
+  135  ls
+  136  cd ejercicio_2_infraestructura
+  137  ls
+  138  curl -X GET -u indigo-garcia:cb46f910df4a80027355edd5b159e1a574fd6bdd https://api.github.com/users/indigo-garcia/repos | grep -w clone_url
+  139  service
+  140  tomcat
+  141  cd ..
+  142  service
+  143  tomcat
+  144  cd ..
+  145  service
+  146  tomacat
+  147  apache tomcat
+  148  ./server.startup -tomcat
+  149  tomcat -version
+  150  tomcat --version
+  151  sudo groupadd tomcat
+  152  sudo useradd -s /bin/false -g tomcat tomcat
+  153  curl -O https://www-us.apache.org/dist/tomcat/tomcat-9/v9.0.17/bin/apache-tomcat-9.0.17.tar.gz
+  154  cd /tmp
+  155  sudo apt install zip
+  156  sudo apt install tar
+  157  sudo apt install tar.gz
+  158  sudo apt install gz
+  159  ld
+  160  ls
+  161  unzip apache-tomcat-9.0.17.tar.gz
+  162  cd ..
+  163  ls
+  164  chmod 777
+  165  chmod 777 catalina.2021-02-25.log 
+  166  sudo chmod 777 catalina.2021-02-25.log 
+  167  sudo chmod 777 localhost_access_log.2021-02-25.txt 
+  168  jar -cvf shopping.war Shopping
+  169  cp shopping.war 
+  170  sudo cp shopping.war /var/lib/tomcat8/webapps/
+  171  wget http://www-eu.apache.org/dist/tomcat/tomcat-9/v9.0.13/bin/apache-tomcat-9.0.13.tar.gz
+  172  apt-get install tomcat8
+  173  sudo apt-get install tomcat8
+  174  systemctl start tomcat8
+  175  wget localhost:8080
+  176  var/lib/tomcat8
+  177  /var/lib/tomcat8
+  178  cd /var/lib/tomcat8
+  179  chmod 777
+  180  chmod777
+  181  sudo chmod 777
+  182  cd logs
+  183  chmod 777 logs 
+  184  sudo chmod 777 logs 
+  185  unzip LibreOffice_7.1.1_Linux_x86-64_deb.tar.gz
+  186  sudo apt install tar
+  187  sudo apt install tar.gz
+  188  sudo apt install gz
+  189  sudo apt install libre-office
+  190  sudo apt install libre office
+  191  tar -xzvf LibreOffice_7.1.1_Linux_x86-64_deb.tar.gz LibreOffice_7.1.1.2_Linux_x86-64_deb/
+  192  cd -h
+  193  df -h
+  194  cf -h
+  195  df -h
+  196  sudo add-apt-repository ppa:libreoffice/libreoffice-7-0
+  197  sudo apt update
+  198  sudo apt-fullupgrade
+  199  sudo apt full-upgrade
+  200  chmod -rwx 
+  201  chmod -rwx local
+  202  sudo chmod -rwx local
+  203  sudo chmod +rwx local
+  204  cd local/
+  205  ls -l
+  206  mv android-studio-ide-201.7042882-linux.tar.gz/usr/local/
+  207  df -h
+  208  mv android-studio-ide-201.7042882-linux.tar.gz../usr/local/
+  209  mv android-studio-ide-201.7042882-linux.tar.gz../
+  210  mv android-studio-ide-201.7042882-linux.tar.gz..
+  211  mv android-studio-ide-201.7042882-linux.tar.gz/..
+  212  mv android-studio-ide-201.7042882-linux.tar.gz ..
+  213  cd 
+  214  mv android-studio-ide-201.7042882-linux.tar.gz/ usr/local/
+  215  mv android-studio-ide-201.7042882-linux.tar.gz usr/local/
+  216  mv android-studio-ide-201.7042882-linux.tar.gz /usr/local/
+  217  sudo mv android-studio-ide-201.7042882-linux.tar.gz /usr/local/
+  218  cd usr/local
+  219  cd /usr/local
+  220  tar -xvf android-studio-ide-201.7042882-linux.tar.gz 
+  221  sudo tar -xvf android-studio-ide-201.7042882-linux.tar.gz 
+  222  exo-open --launch FileManager
+  223  android-studio/bin/
+  224  cd android-studio/bin/
+  225  studio.sh
+  226  sh studio.sh
+  227  df -h
+  228  cd /usr/local
+  229  ls
+  230  cd android-studio/
+  231  df -h
+  232  studio.sh
+  233  cd bin
+  234  studio.sh
+  235  ls
+  236  sh studio.sh
+  237  Iscpu
+  238  cpuinfo
+  239  lscpu
+  240  df -h
+  241  exo-open --launch FileManager
+  242  cd ..
+  243  cd .
+  244  .
+  245  cd .
+  246  cd ..
+  247  sudo apt-get --purge remove android-studio
+  248  grep " install " /var/log/dpkg.log
+  249  apt -list installed
+  250  apt --list installed
+  251  apt list --installed
+  252  /usr/local/android-studio/bin/
+  253  cd /usr/local/android-studio/bin/
+  254  sudo 
+  255  sh studio.sh
+  256  exo-open --launch FileManager
+  257  sudo exo-open --launch FileManager
+  258  cd 
+  259  tar -xvf android-studio-ide-201.7042882-linux.tar.gz 
+  260  cd android-studio/
+  261  cd bin
+  262  sh studio.shg
+  263  sh studio.sh
+  264  sudo sh studio.sh
+  265  sudo apt-get --purge remove android-studio
+  266  snap install android-studio
+  267  sudo snap install android-studio
+  268  rm -r ~/.AndroidStudio/ 
+  269  rm -r ~/.AndroidStudio/
+  270  rm -r ~/.android
+  271  rm -r 
+  272  sh studio.sh
+  273  rm -r ~/.config/Google/AndroidStudio4.1
+  274  sh studio.sh
+  275  df -h
+  276  cf -h
+  277  df -h
+  278  android-studio
+  279  cd android-studio/
+  280  df -h
+  281  sh studio.sh
+  282  cd bin
+  283  sh studio.sh
+  284  cd ..
+  285  tar -xvf arduino-1.8.13-linux64.tar.xz arduino-1.8.13/
+  286  cd ..
+  287  cd Descargas/
+  288  tar -xvf arduino-1.8.13-linux64.tar.xz arduino-1.8.13/
+  289  cd ..
+  290  cd arduino-1.8.13/
+  291  ls
+  292  cd tools
+  293  ls
+  294  cd ..
+  295  cd tools-builder
+  296  ls
+  297  cd ..
+  298  sh install.sh
+  299  sudo sh install.sh
+  300  android-studio
+  301  gradlew tasks
+  302  ./gradlew build.gradle 
+  303  gradlew assembleDebug
+  304  gradlew installDebug
+  305  gradle installDebug
+  306  gradle.run
+  307  gradle run
+  308  build.gradle
+  309  cd android-studio
+  310  cd bin
+  311  sh studio.sh
+  312  unzip gradle-6.5-bin.zip 
+  313  gradle
+  314  gradle.bat
+  315  gradlew tasks
+  316  cd Prueba/
+  317  gradlew tasks
+  318  gradle tasks
+  319  sudo apt install gradle
+  320  gradle tasks
+  321  sudo apt update gradle
+  322  sudo update gradle
+  323  sudo apt upgrade gradle
+  324  sudo snap install gradle
+  325  gradle tasks
+  326  sudo apt-get update
+  327  gradle tasks
+  328  sudo apt upgrade gradle
+  329  gradle --version
+  330  ./gradle 
+  331  gradle.sh 
+  332  ./gradle build.gradle 
+  333  ./gradlew build.gradle 
+  334  gradlew tasks
+  335  gradle tasks
+  336  cd app/
+  337  ls
+  338  ./gradle build.gradle 
+  339  ./gradlew build.gradle 
+  340  ./gradle build.gradle 
+  341  gradlew build.gradle 
+  342  gradle build.gradle 
+  343  cd ..
+  344  gradlew
+  345  gradle buid.gradle
+  346  sudo apt upgrade gradle
+  347  gradle --version
+  348  ls
+  349  cd gradle-6.5/
+  350  ls
+  351  cd bin
+  352  ls
+  353  ./gradle
+  354  gradle --version
+  355  cd .
+  356  cd
+  357  cd Escritorio/
+  358  unzip Bare-Arduino-Project-master.zip 
+  359  sudo apt-get install gcc-avr binutils avr-libc avrdude
+  360  avr-gcc -v
+  361  cd ~ 
+  362  git clone https://github.com/ladislas/Bare-Arduino-Project MyArduinoProject
+  363  cd MyArduinoProject/
+  364  git submodule 
+  365  git submodule update --init --recursive
+  366  it remote set-url origin https://github.com/{{indigo-garcia}}/MyArduinoProject
+  367  git remote set-url origin https://github.com/{{indigo-garcia}}/MyArduinoProject
+  368  git push --set-upstream origin master
+  369  git remote set-url origin https://github.com/indigo-garcia/MyArduinoProject
+  370  git push --set-upstream origin master
+  371  git remote set-url origin https://github.com/indigo-garcia/MyArduinoProject
+  372  git push --set-upstream origin master
+  373  brew install python python@2
+  374  $ pip install pyserial & pip2 install pyserial
+  375  sudo apt-install python3-pip
+  376  sudo apt install python3-pip
+  377  sudo apt install python-pip
+  378  $ pip install pyserial & pip2 install pyserial
+  379  cd src/FooProject
+  380  cp ../../Makefile-Linux.mk ./Makefile
+  381  ls
+  382  make
+  383  make upload
+  384  sudo apt install arduino-cli
+  385  arduino-cli --version
+  386  cd arduino-1.8.13/
+  387  ls
+  388  cd tools
+  389  cd ..
+  390  cd tools-builder/
+  391  ls
+  392  cd ..
+  393  ./arduino
+  394  sudo apt install arduino-cli
+  395  cd ..
+  396  curl -fsSL https://raw.githubusercontent.com/arduino/arduino-cli/master/install.sh | sh
+  397  ls
+  398  cd bin/
+  399  ./arduino-cli
+  400  arduino-cli
+  401  cp arduino-cli /usr/bin/
+  402  sudo cp arduino-cli /usr/bin/
+  403  arduino-cli
+  404  cd ..
+  405  ls
+  406  arduino-cli
+  407  ls
+  408  cd Bare-Arduino-Project-master/
+  409  ls
+  410  arduino-cli
+  411  arduino-cli completion
+  412  cd ..
+  413  cd Escritorio/
+  414  history >> historal.txt
+  415  arduino-cli
+  416  cd ..
+  417  arduino-cli compile --fqbn arduino:avr:nano FooProject/
+  418  cd FooProject/
+  419  arduino-cli compile --fqbn arduino:avr:nano
+  420  arduino-cli compile --fqbn arduino:avr:uno
+  421  arduino-cli compile
+  422  arduino-cli board list
+  423  arduino-cli listall
+  424  arduino-cli board listall
+  425  arduino-cli board list
+  426  arduino-cli compile --fqbn arduino:samd:uno
+  427  arduino-cli core install arduino:avr
+  428  arduino-cli compile --fqbn arduino:avr:nano
+  429  cd ..
+  430  history >> historal.txt
