@@ -4,7 +4,9 @@ pipeline {
         stage('build') {
             steps {
                 sh 'mvn --version'
-                make /home/alumno/Escritorio/GPI2/ejercicio_3_practica_build_1/MyArduinoProject/src/FooProject/Makefile
+                make /GPI2/ejercicio_3_practica_build_1/MyArduinoProject/src/FooProject/Makefile
+                mvn test-compile /GPI2/ejercicio_4_practica_build_2/example-app/
+                gradlew /GPI2/ejercicio_3_practica_build_1/Prueba/
             }
         }
     }
